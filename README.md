@@ -1,4 +1,4 @@
-# Veloz Acompanha — Auto Center Veloz
+# Veloz Acompanha - Auto Center Veloz
 
 > Web app para **acompanhar o conserto em tempo real** e **aprovar orçamentos pelo celular**, com fotos das peças com defeito, feito para a oficina **Auto Center Veloz**.
 
@@ -168,7 +168,6 @@ autocenter-veloz/
 | WhatsApp | Links `wa.me` | Envio do link ao cliente **sem precisar de chave de API** |
 | Deploy | **GitHub Actions + GitHub Pages** | Publicação automática a cada `push` na `main` |
 
-> **Importante:** no protótipo, os dados ficam salvos **somente no navegador** de quem está testando. Use o botão **"Restaurar demo"** na Recepção para voltar aos dados iniciais.
 
 ### Arquitetura alvo (produção)
 
