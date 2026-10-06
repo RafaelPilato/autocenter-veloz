@@ -17,27 +17,22 @@ export default function Home() {
 
       <div className="perfis">
         <a className="perfil" href="#/recepcao">
-          <span className="ico">🖥️</span>
+          <span className="ico"></span>
           <h3>Recepção</h3>
           <p>Painel do pátio: entrada de veículos, status de cada OS e envio do link ao cliente.</p>
         </a>
         <a className="perfil" href="#/oficina">
-          <span className="ico">🔧</span>
+          <span className="ico"></span>
           <h3>Oficina (mecânico)</h3>
           <p>No tablet do elevador: atualizar status, montar orçamento e fotografar as peças.</p>
         </a>
         {demo && (
           <a className="perfil destaque" href={`#/os/${demo.token}`}>
-            <span className="ico">📱</span>
+            <span className="ico"></span>
             <h3>Portal do Cliente</h3>
             <p>Visão do cliente ({demo.cliente.split(' ')[0]}, {demo.veiculo}) aberta pelo link do WhatsApp.</p>
           </a>
         )}
-      </div>
-
-      <div className="dica">
-        💡 <b>Dica para testar:</b> abra a Recepção em uma aba e o Portal do Cliente em outra.
-        Aprove o orçamento no portal e veja o painel atualizar sozinho.
       </div>
     </section>
   )
