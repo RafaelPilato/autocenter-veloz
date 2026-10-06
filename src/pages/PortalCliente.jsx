@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { useOrdens } from '../hooks'
-import Logo from '../components/Logo'
 import Timeline from '../components/Timeline'
 import StatusBadge from '../components/StatusBadge'
 import Mensagens from '../components/Mensagens'
@@ -38,7 +37,7 @@ export default function PortalCliente({ token }) {
   return (
     <div className="portal">
       <header className="portal-topo">
-        <Logo size={28} /> <span>Auto Center <b>Veloz</b></span>
+        <span>Auto Center <b>Veloz</b></span>
       </header>
 
       <div className="portal-card">
